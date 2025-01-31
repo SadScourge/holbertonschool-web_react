@@ -1,0 +1,1 @@
+This Directory contains all my tasks of the project Typescript for Holberton School

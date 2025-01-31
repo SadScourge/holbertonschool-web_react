@@ -18,7 +18,7 @@ let student2: Student = {
     location: "Hogwarts",
 }
 
-let studentlist: Student[] = [student1, student2]
+let studentsList: Student[] = [student1, student2]
 const table = document.createElement('table');
 const headerRow = document.createElement('tr');
 
@@ -30,7 +30,7 @@ headerRow.appendChild(locationHeader);
 
 table.appendChild(headerRow);
 
-studentlist.forEach(student => {
+studentsList.forEach(student => {
     const row = document.createElement('tr');
 
     const firstName = document.createElement('td');
